@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emoji Converter</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"
+</head>
+<body class="bg-gray-200 p-4">
+    <div class="max-w-lg mx-auto bg-white p-6 rounded-md shadow-md">
+        <div class="flex items-center mb-4">
+            <input type="text" id="emojiInput" class="flex-1 border rounded-md py-2 px-4 mr-2" placeholder="Enter emoji...">
+            <button id="convertButton" class="bg-blue-500 text-white py-2 px-4 rounded-md">Convert</button>
+        </div>
+        <div id="resultContainer" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
